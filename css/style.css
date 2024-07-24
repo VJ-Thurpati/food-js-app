@@ -1,0 +1,170 @@
+.hero-unit {
+    background-image: url("/images/turkish-dessert-kadayif-bowl-blue-table.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    color: rgb(235, 38, 38);
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body{
+    color: black;
+}
+
+.card-img-top{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 3px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Hero Content */
+.hero-unit {
+    padding: 20px 0;
+}
+
+#hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* .container{
+    display:grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 2rem;
+} */
+
+/* Card Styles */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card .card-body {
+    padding: 30px;
+}
+
+/* Sign Up Form Styles */
+#signup-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#signup-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+#signup-form label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+#signup-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+
+#signup-form .form-control:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(128, 189, 255, 0.5);
+}
+
+#signup-form .btn {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    color: #fff;
+}
+
+#signup-form .btn:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+#signup-form .error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+/* Header */
+header {
+    margin-bottom: 30px;
+}
+
+header .logo img {
+    height: 80px;
+    cursor: pointer;
+}
+
+header .form-inline {
+    flex-grow: 1;
+    max-width: 400px;
+}
+
+header .menu .btn {
+    margin-left: 10px;
+}
+
+/* Footer */
+/* Footer styling */
+footer {
+    background-color: #021527;
+    padding: 10px 0;
+    color: #343a40;
+}
+
+footer h5 {
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 15px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #343a40;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #eef3f8;
+}
+
+footer .text-center {
+    background-color: #021527;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer .text-center p {
+    margin: 0;
+}

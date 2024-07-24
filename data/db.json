@@ -1,0 +1,335 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "contactno": "1234567890",
+      "address": "123 Main St, Cityville",
+      "orders": [],
+      "wishlist": []
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "contactno": "0987654321",
+      "address": "456 Elm St, Townsville",
+      "orders": [],
+      "wishlist": []
+    },
+    {
+      "id": "f28f",
+      "name": "vijaya thurpati",
+      "email": "vijayathurpati106@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "0918",
+      "name": "vijaya thurpati",
+      "email": "vijayathurpati106@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "c8dc",
+      "name": "vijaya thurpati",
+      "email": "vijayathurpati106@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "e41a",
+      "name": "vijaya thurpati",
+      "email": "vijayathurpati106@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "7821",
+      "name": "vijaya thurpati",
+      "email": "vijayathurpati106@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "c585",
+      "name": "vijaya thurpati",
+      "email": "vijayathurpati106@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "7dce",
+      "name": "vijaya thurpati",
+      "email": "vijayathurpati106@gmail.com",
+      "password": "123"
+    }
+  ],
+
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Pizza Palace",
+      "address": "789 Oak St, Foodtown",
+      "rating": 4.5,
+      "reviews": 120,
+      "imageurl": "images/restaurants/restaurant1.jpg",
+      "menu": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "imageurl": "images/dishes/dish1.jpg",
+          "rating": 4.7,
+          "reviews": 85
+        },
+        {
+          "id": 2,
+          "name": "Pepperoni Pizza",
+          "price": 14.99,
+          "imageurl": "images/dishes/dish2.jpg",
+          "rating": 4.8,
+          "reviews": 90
+        },
+        {
+          "id": 2,
+          "name": "Pepperoni Pizza",
+          "price": 14.99,
+          "imageurl": "images/dishes/dish2.jpg",
+          "rating": 4.8,
+          "reviews": 90
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Burger Barn",
+      "address": "101 Maple St, Burger City",
+      "rating": 4.3,
+      "reviews": 200,
+      "imageurl": "images/restaurants/restaurant2.jpg",
+      "menu": [
+        {
+          "id": 3,
+          "name": "Classic Burger",
+          "price": 10.99,
+          "imageurl": "images/dishes/dish3.jpg",
+          "rating": 4.5,
+          "reviews": 150
+        },
+        {
+          "id": 4,
+          "name": "Cheese Burger",
+          "price": 11.99,
+          "imageurl": "images/dishes/dish4.jpg",
+          "rating": 4.6,
+          "reviews": 160
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Sushi Central",
+      "address": "202 Cedar St, Sushiville",
+      "rating": 4.7,
+      "reviews": 180,
+      "imageurl": "images/restaurants/restaurant3.jpg",
+      "menu": [
+        {
+          "id": 5,
+          "name": "California Roll",
+          "price": 8.99,
+          "imageurl": "images/dishes/dish5.jpg",
+          "rating": 4.8,
+          "reviews": 200
+        },
+        {
+          "id": 6,
+          "name": "Spicy Tuna Roll",
+          "price": 9.99,
+          "imageurl": "images/dishes/dish6.jpg",
+          "rating": 4.9,
+          "reviews": 220
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Taco Town",
+      "address": "303 Birch St, Tacoville",
+      "rating": 4.4,
+      "reviews": 250,
+      "imageurl": "images/restaurants/restaurant4.jpg",
+      "menu": [
+        {
+          "id": 7,
+          "name": "Beef Taco",
+          "price": 3.99,
+          "imageurl": "images/dishes/dish7.jpg",
+          "rating": 4.5,
+          "reviews": 300
+        },
+        {
+          "id": 8,
+          "name": "Chicken Taco",
+          "price": 4.49,
+          "imageurl": "images/dishes/dish8.jpg",
+          "rating": 4.6,
+          "reviews": 320
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Pasta Paradise",
+      "address": "404 Pine St, Pastaville",
+      "rating": 4.6,
+      "reviews": 130,
+      "imageurl": "images/restaurants/restaurant5.jpg",
+      "menu": [
+        {
+          "id": 9,
+          "name": "Spaghetti Carbonara",
+          "price": 11.99,
+          "imageurl": "images/dishes/dish9.jpg",
+          "rating": 4.7,
+          "reviews": 140
+        },
+        {
+          "id": 10,
+          "name": "Fettuccine Alfredo",
+          "price": 12.49,
+          "imageurl": "images/dishes/dish10.jpg",
+          "rating": 4.8,
+          "reviews": 160
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Steak House",
+      "address": "505 Walnut St, Steakville",
+      "rating": 4.8,
+      "reviews": 220,
+      "imageurl": "images/restaurants/restaurant6.jpg",
+      "menu": [
+        {
+          "id": 11,
+          "name": "Ribeye Steak",
+          "price": 24.99,
+          "imageurl": "images/dishes/dish11.jpg",
+          "rating": 4.9,
+          "reviews": 240
+        },
+        {
+          "id": 12,
+          "name": "T-Bone Steak",
+          "price": 26.99,
+          "imageurl": "images/dishes/dish12.jpg",
+          "rating": 5,
+          "reviews": 260
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Curry Corner",
+      "address": "606 Cherry St, Curryville",
+      "rating": 4.5,
+      "reviews": 150,
+      "imageurl": "images/restaurants/restaurant7.jpg",
+      "menu": [
+        {
+          "id": 13,
+          "name": "Chicken Curry",
+          "price": 13.99,
+          "imageurl": "images/dishes/dish13.jpg",
+          "rating": 4.6,
+          "reviews": 170
+        },
+        {
+          "id": 14,
+          "name": "Lamb Curry",
+          "price": 15.99,
+          "imageurl": "images/dishes/dish14.jpg",
+          "rating": 4.7,
+          "reviews": 190
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Vegan Vibes",
+      "address": "707 Peach St, Vegantown",
+      "rating": 4.6,
+      "reviews": 180,
+      "imageurl": "../images/restaurants/restaurant8.jpg",
+      "menu": [
+        {
+          "id": 15,
+          "name": "Vegan Burger",
+          "price": 10.99,
+          "imageurl": "../images/dishes/dish15.jpg",
+          "rating": 4.7,
+          "reviews": 200
+        },
+        {
+          "id": 16,
+          "name": "Vegan Salad",
+          "price": 9.99,
+          "imageurl": "../images/dishes/dish16.jpg",
+          "rating": 4.8,
+          "reviews": 220
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Seafood Shack",
+      "address": "808 Ocean St, Seafoodville",
+      "rating": 4.7,
+      "reviews": 190,
+      "imageurl": "../images/restaurants/restaurant9.jpg",
+      "menu": [
+        {
+          "id": 17,
+          "name": "Grilled Salmon",
+          "price": 18.99,
+          "imageurl": "../images/dishes/dish17.jpg",
+          "rating": 4.8,
+          "reviews": 210
+        },
+        {
+          "id": 18,
+          "name": "Lobster Roll",
+          "price": 21.99,
+          "imageurl": "../images/dishes/dish1.jpg",
+          "rating": 4.9,
+          "reviews": 230
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "BBQ Bliss",
+      "address": "909 Maple St, BBQville",
+      "rating": 4.8,
+      "reviews": 210,
+      "imageurl": "../images/restaurants/restaurant10.jpg",
+      "menu": [
+        {
+          "id": 19,
+          "name": "BBQ Ribs",
+          "price": 19.99,
+          "imageurl": "../images/dishes/dish19.jpg",
+          "rating": 4.9,
+          "reviews": 230
+        },
+        {
+          "id": 20,
+          "name": "Pulled Pork Sandwich",
+          "price": 14.99,
+          "imageurl": "../images/dishes/dish20.jpg",
+          "rating": 5,
+          "reviews": 250
+        }
+      ]
+    }
+  ]
+}
